@@ -1,6 +1,6 @@
 # Real-Time Pedestrian Counting with YOLO11 🚶‍♂️🚦
 
-<divider align="center">
+<div align="center">
 ![](Images/Home.png)
 
 <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
