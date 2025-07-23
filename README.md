@@ -10,14 +10,6 @@
 
 </div>
 
-## Research Team 🧑‍🔬
-- *Dr. José Alberto Guzmán Torres*  
-jose.alberto.guzman@umich.mx  
-*Universidad Michoacana de San Nicolás de Hidalgo, Faculty of Civil Engineering*  
-*AULA-CIMNE, Morelia, Michoacán, México*  
-
----
-
 ## 🎯 Project Objective
 
 This project implements a **real-time pedestrian detection and counting system** using the YOLO11 object detection algorithm. The main goal is to monitor and quantify pedestrian flow in urban areas by placing a virtual counting line on video footage. This tool is designed to assist in urban planning, pedestrian safety studies, and smart city applications.
@@ -71,9 +63,7 @@ This project implements a **real-time pedestrian detection and counting system**
 ├── Models/
 │   ├── yolo11l.pt                # YOLO11 model weights for pedestrian detection
 │   ├── yolo11m.pt               
-│   ├── yolo11s.pt
-│   ├── yolo11x.pt
-│   └── yolo12l.pt
+│   └── yolo11s.pt
 ├── Resources/
 │   ├── videos/                   # Input videos for analysis
 │   │   ├── Cruce_Estacionamiento_CU_2.mp4
