@@ -10,38 +10,38 @@ jose.alberto.guzman@umich.mx
 
 ---
 
-## Project Objective
+## 🎯 Project Objective
 
 This project implements a **real-time pedestrian detection and counting system** using the YOLO11 object detection algorithm. The main goal is to monitor and quantify pedestrian flow in urban areas by placing a virtual counting line on video footage. This tool is designed to assist in urban planning, pedestrian safety studies, and smart city applications.
 
 ---
 
-## Workflow Overview
+## 🔄 Workflow Overview
 
-1. **Video Input**  
+1. 📹 **Video Input**  
    The script loads a video file of an urban area where pedestrian flow is to be analyzed.
 
-2. **Virtual Counter Line Selection**  
+2. 🖱️ **Virtual Counter Line Selection**  
    - A custom HTML tool (`Selector_puntos.html`) is provided to interactively select two points on a video frame, defining the position of the virtual counting line.
    - The selected coordinates are used in the main script to set up the counting region.
 
-3. **YOLO11 Model Initialization**  
+3. 🤖 **YOLO11 Model Initialization**  
    - The script loads a YOLO11 model pre-trained for pedestrian detection.
    - The model is configured to detect only the class corresponding to persons.
 
-4. **Real-Time Detection and Counting**  
+4. 🎯 **Real-Time Detection and Counting**  
    - For each frame in the video:
      - The YOLO11 model detects pedestrians.
      - The script checks if detected pedestrians cross the virtual counting line.
      - The count is updated in real time and can be displayed on the output video.
 
-5. **Output Generation**  
+5. 📼 **Output Generation**  
    - The processed video, with bounding boxes, the virtual line, and the pedestrian count overlay, is saved to disk.
    - Optionally, the output can be displayed in real time.
 
 ---
 
-## Key Features
+## 🌟 Key Features
 
 - **Interactive Line Selection:**  
   Use the included HTML tool to easily define the counting line on any video.
@@ -57,29 +57,35 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ---
 
-## Repository Structure
-
-- `Real_time_object_counting.ipynb` / `Real_time_object_counting.py`  
-  Main scripts for running the detection and counting workflow.
-
-- `Selector_puntos.html`  
-  Interactive tool for selecting the virtual counting line.
-
-- `Models/`  
-  Folder containing the YOLO11 model weights.
-
-- `Resources/videos/`  
-  Input videos for analysis.
-
-- `Resources/videos_output/`  
-  Output videos with detection and counting overlays.
-
-- `Images/`  
-  Logos and other images used in the application.
+## 🏗️ Project Architecture
+```
+📦 Real_Time_Pedestrian_Counting/
+├── Models/
+│   ├── yolo11l.pt                # YOLO11 model weights for pedestrian detection
+│   ├── yolo11m.pt               
+│   ├── yolo11s.pt
+│   ├── yolo11x.pt
+│   └── yolo12l.pt
+├── Resources/
+│   ├── videos/                   # Input videos for analysis
+│   │   ├── Cruce_Estacionamiento_CU_2.mp4
+│   │   └── ...
+│   └── videos_output/           # Processed videos with detection overlays
+│       ├── Cruce_Estacionamiento_CU_2.mp4
+│       └── ...
+├── Images/
+│   ├── background_minimalista.svg # Background for UI
+│   ├── logo_siiia_w.png          # Institutional logos
+│   └── ...
+├── Real_time_object_counting.ipynb   # Main Jupyter notebook script
+├── Real_time_object_counting.py      # Python version of the script
+├── Selector_puntos.html              # Interactive line selection tool
+└── README.md                         # This documentation file
+```
 
 ---
 
-## How to Use
+## 🚀 How to Use
 
 1. **Select the Counting Line:**  
    Open `Selector_puntos.html` in your browser and select the two points for the virtual line. Save the coordinates.
@@ -96,7 +102,7 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ---
 
-## Citation
+## 📚 Citation
 
 If you use this tool or dataset in your research, please cite:
 
@@ -104,16 +110,11 @@ If you use this tool or dataset in your research, please cite:
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 This project was developed as part of research on urban mobility and smart city solutions. Special thanks to the open-source community and contributors to the YOLO and Ultralytics projects.
 
 ---
-
-Happy researching and building smarter cities!
-## Concrete Carbonation Classifier 🚧🧱🔍
-
-<div align="center">
 
 ![](Home.png)
 
@@ -122,52 +123,7 @@ Happy researching and building smarter cities!
 <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.8+-orange.svg">
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
-**An AI-powered, explainable image classifier for detecting carbonation damage in concrete samples**
 
-Concrete Carbonation Classifier is a next-generation Streamlit web application that leverages deep learning to non-destructively assess carbonation damage in concrete from sample images. Designed for civil engineers and researchers, it provides instant, trustworthy predictions with an intuitive interface and explainable model outputs.
-
-</div>
-
-## ⚙️ Key Features  
-
-- **🚀 Real-Time Classification**  
-  Upload an image of a concrete sample and receive an instantaneous damage/no-damage verdict.  
-- **🧠 Explainable AI**  
-  Powered by a TensorFlow/Keras CNN model, offering transparent output probabilities and accuracy metrics.  
-- **🔧 Modular Utilities**  
-  Helper functions in `Utilities.py` manage page configuration, backgrounds, and Lottie animations.  
-- **🎨 Engaging UI**  
-  Built with Streamlit (v1.20+) for responsive layouts, custom sidebar branding, and Lottie animations via `streamlit_lottie`.  
-- **🗄️ Lightweight & Secure**  
-  Processes inputs in-memory only—no data is persisted on the server for maximum privacy.  
-- **📦 Devcontainer Support**  
-  Includes a VS Code Dev Container configuration for one-click setup of Python 3.11 development environments.
-
----
-
-## 🏗️ Project Architecture
-```
-📦 Concrete_Carb_Classifier/
-├── .devcontainer/
-│   └── devcontainer.json           # DevContainer setup for reproducible dev env
-├── Gifs/
-│   └── Animation.json              # Lottie animation for UI feedback 
-├── Images/
-│   ├── side_bar_img.png            # Custom sidebar background 
-│   ├── icon.webp                   # App icon & favicon 
-│   ├── logotipo_SCyT.svg           # Institutional logos 
-│   ├── logo_siiia_w.png
-│   ├── UMSNH.png
-│   └── Sample images/              # Preloaded test images for quick demos 
-├── __pycache__/                    # Compiled Python caches
-├── Central_app.py                  # Main Streamlit application script 
-├── Utilities.py                    # Utility classes & functions (backgrounds, Lottie loader) 
-├── carbonation_classifier_model.h5 # Pre-trained Keras CNN model weights 
-├── requirements.txt                # Python dependencies (Streamlit, TensorFlow, etc.)
-└── README.md                       # This documentation file 
-```
-
----
 
 ## 💻 Technical Specifications  
 
