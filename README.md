@@ -1,6 +1,6 @@
 # Real-Time Pedestrian Counting with YOLO11 🚶‍♂️🚦
 
-![](Images/logo_siiia_w.png)
+![](Images/Home.png)
 
 <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
 <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.20+-brightgreen.svg">
