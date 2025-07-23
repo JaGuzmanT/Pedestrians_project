@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![](Images/Home1.png)
+![](Images/Home.png)
 
 <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
 <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.20+-brightgreen.svg">
