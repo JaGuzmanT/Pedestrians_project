@@ -2,7 +2,9 @@
 
 ![](Images/Home1.png)
 <div align="center">
+
 ![](Images/Home1.png)
+
 <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
 <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.20+-brightgreen.svg">
 <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.8+-orange.svg">
