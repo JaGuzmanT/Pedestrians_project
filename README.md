@@ -1,6 +1,5 @@
 # Real-Time Pedestrian Counting with YOLO11 🚶‍♂️🚦
 
-![](Images/Home1.png)
 <div align="center">
 
 ![](Images/Home1.png)
