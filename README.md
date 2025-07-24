@@ -62,19 +62,19 @@ This project implements a **real-time pedestrian detection and counting system**
 ## 🏗️ Project Architecture
 ```
 📦 Pedestrians_project/
-├── 📂 Models/                        # Model weights directory
+├── 📂 Models/                       # Model weights directory
 │   ├── yolo11l.pt                   # Large YOLO11 model weights
 │   ├── yolo11m.pt                   # Medium YOLO11 model weights
 │   └── yolo11s.pt                   # Small YOLO11 model weights
-├── 📂 Resources/                     # Resource files directory
+├── 📂 Resources/                    # Resource files directory
 │   ├── 📂 videos/                   # Input videos for analysis
 │   │   ├── Cruce_Estacionamiento_CU_2.mp4
 │   │   └── ...
 │   └── 📂 videos_output/            # Processed videos with overlays
 │       ├── Cruce_Estacionamiento_CU_2.mp4
 │       └── ...
-├── 📂 Images/                        # Images and assets
-│   ├── background_minimalista.svg    # UI background
+├── 📂 Images/                       # Images and assets
+│   ├── background_minimalista.svg   # UI background
 │   ├── logo_siiia_w.png             # SIIIA logo
 │   ├── UMSNH.png                    # UMSNH logo
 │   ├── Home.png                     # README header image
