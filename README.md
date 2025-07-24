@@ -84,7 +84,44 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ---
 
-## 🚀 How to Use
+## � Clone & Install
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/JaGuzmanT/Pedestrians_project.git
+   cd Pedestrians_project
+   ```
+
+2. **Set up Python Environment:**
+   ```bash
+   # Create and activate a virtual environment (recommended)
+   python -m venv venv
+   # On Windows
+   .\venv\Scripts\activate
+   # On Linux/Mac
+   source venv/bin/activate
+   ```
+
+3. **Install Required Libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Main dependencies include:
+   - ultralytics==8.0.196
+   - opencv-python==4.8.0.76
+   - numpy>=1.22.2
+   - torch>=2.0.0
+   - torchvision>=0.15.0
+
+4. **Download YOLO11 Models:**
+   - The models are included in the repository under the `Models/` directory
+   - Available versions: yolo11s.pt (small), yolo11m.pt (medium), yolo11l.pt (large)
+   - Choose the model size based on your computational resources
+
+---
+
+## �🚀 How to Use
 
 1. **Configure the Script:**  
    - Set the video path and model path in the script.
