@@ -12,7 +12,9 @@
 
 ## 🎯 Project Objective
 
+<div style="text-align: justify">
 This project implements a **real-time pedestrian detection and counting system** using the YOLO11 object detection algorithm. The main goal is to monitor and quantify pedestrian flow in urban areas by placing a virtual counting line on video footage. This tool is designed to assist in urban planning, pedestrian safety studies, and smart city applications.
+</div>
 
 ---
 
@@ -119,21 +121,35 @@ This project was developed as part of research on urban mobility and smart city 
 
 ### :books: Machine Learning Pipeline
 
-1. **Data Collection**: High-resolution photographs of concrete specimens with known carbonation states.
-2. **Image Preprocessing**: Resize, center‐crop, and pixel-value normalization based on ImageNet means.
-3. **Model Training**: Fine-tuned CNN in Keras with binary cross-entropy loss.
-4. **Deployment**: Model weights loaded at runtime in a Streamlit interface for inference.
-5. **Explainability**: Confidence thresholds and clear color–coded messaging to assist non-expert users.
+1. **Video Input Processing**: 
+   - High-quality video capture from urban environments
+   - Frame extraction and preprocessing for optimal detection
+   - Interactive line placement through web interface
 
-### :trophy: Why Concrete Carbonation Classifier?
+2. **YOLO11 Detection Pipeline**:
+   - Real-time frame processing using YOLO11 architecture
+   - Person class filtering for focused pedestrian detection
+   - Bounding box generation with confidence scores
 
-| Feature         | Traditional Methods    | ConcreteCarbClass API    |
-|-----------------|-----------------------|---------------------------|
-| **Speed**       | Visual inspection     | Instant verdict           |
-| **Accuracy**    | Subjective            | Objective                 |
-| **Explainability** | Limited            | Transparent, interactive  |
-| **Accessibility** | Specialist required | Anyone, anywhere          |
-| **Scalability** | Static                | Easily updatable          |
+3. **Counting Algorithm**:
+   - Virtual line intersection detection
+   - Direction-aware pedestrian tracking
+   - Real-time count accumulation and display
+
+4. **Output Generation**:
+   - Overlay visualization of detection boxes
+   - Dynamic count display and statistics
+   - Processed video export with annotations
+
+### :trophy: Why YOLO11 for Pedestrian Detection?
+
+| Feature         | Traditional Methods    | YOLO11 Detection    |
+|-----------------|-----------------------|---------------------|
+| **Speed**       | Slow frame processing | Real-time detection |
+| **Accuracy**    | Variable reliability  | High precision      |
+| **Scalability** | Limited by hardware   | GPU-accelerated     |
+| **Flexibility** | Fixed viewing angles  | Adaptable placement |
+| **Automation**  | Manual counting       | Automated tracking  |
 ---
 ## :scientist: Research Team
 
