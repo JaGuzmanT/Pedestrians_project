@@ -61,25 +61,29 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ## 🏗️ Project Architecture
 ```
-📦 Real_Time_Pedestrian_Counting/
-├── Models/
-│   ├── yolo11l.pt                # YOLO11 model weights for pedestrian detection
-│   ├── yolo11m.pt               
-│   └── yolo11s.pt
-├── Resources/
-│   ├── videos/                   # Input videos for analysis
+📦 Pedestrians_project/
+├── 📂 Models/                        # Model weights directory
+│   ├── yolo11l.pt                   # Large YOLO11 model weights
+│   ├── yolo11m.pt                   # Medium YOLO11 model weights
+│   └── yolo11s.pt                   # Small YOLO11 model weights
+├── 📂 Resources/                     # Resource files directory
+│   ├── 📂 videos/                   # Input videos for analysis
 │   │   ├── Cruce_Estacionamiento_CU_2.mp4
 │   │   └── ...
-│   └── videos_output/           # Processed videos with detection overlays
+│   └── 📂 videos_output/            # Processed videos with overlays
 │       ├── Cruce_Estacionamiento_CU_2.mp4
 │       └── ...
-├── Images/
-│   ├── background_minimalista.svg # Background for UI
-│   ├── logo_siiia_w.png           # Institutional logos
-│   └── ...
-├── Real_time_object_counting.py      # Python version of the script
-├── Selector_puntos.html              # Interactive line selection tool
-└── README.md                         # This documentation file
+├── 📂 Images/                        # Images and assets
+│   ├── background_minimalista.svg    # UI background
+│   ├── logo_siiia_w.png             # SIIIA logo
+│   ├── UMSNH.png                    # UMSNH logo
+│   ├── Home.png                     # README header image
+│   └── Selector.png                 # Tool preview image
+├── 📜 Real_time_object_counting.py   # Main detection script
+├── 📜 Selector_puntos.html          # Web-based line selection tool
+├── 📜 requirements.txt              # Python dependencies
+├── 📜 LICENSE                       # MIT License file
+└── 📜 README.md                     # Project documentation
 ```
 
 ---
