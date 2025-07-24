@@ -92,9 +92,8 @@ This project implements a **real-time pedestrian detection and counting system**
 
 2. **Run the Script:**  
    - Execute the script in your Python environment.
-   -
    
-2. **Select the Counting Line:**  
+3. **Select the Counting Line:**  
    - The `Selector_puntos.html` will be open in your browser. Select the two points for the virtual line and write the coordinates in the terminal, where the input values will be entered.
    - The script will process the video, detect pedestrians, and count them as they cross the line.
 
