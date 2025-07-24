@@ -73,9 +73,8 @@ This project implements a **real-time pedestrian detection and counting system**
 │       └── ...
 ├── Images/
 │   ├── background_minimalista.svg # Background for UI
-│   ├── logo_siiia_w.png          # Institutional logos
+│   ├── logo_siiia_w.png           # Institutional logos
 │   └── ...
-├── Real_time_object_counting.ipynb   # Main Jupyter notebook script
 ├── Real_time_object_counting.py      # Python version of the script
 ├── Selector_puntos.html              # Interactive line selection tool
 └── README.md                         # This documentation file
@@ -85,15 +84,17 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ## 🚀 How to Use
 
-1. **Select the Counting Line:**  
-   Open `Selector_puntos.html` in your browser and select the two points for the virtual line. Save the coordinates.
-
-2. **Configure the Script:**  
+1. **Configure the Script:**  
    - Set the video path and model path in the script.
    - Input the selected region points for the counting line.
 
-3. **Run the Script:**  
-   Execute the script in your Python environment. The script will process the video, detect pedestrians, and count them as they cross the line.
+2. **Run the Script:**  
+   - Execute the script in your Python environment.
+   -
+   
+2. **Select the Counting Line:**  
+   - The `Selector_puntos.html` will be open in your browser. Select the two points for the virtual line and write the coordinates in the terminal, where the input values will be entered.
+   - The script will process the video, detect pedestrians, and count them as they cross the line.
 
 4. **Review the Output:**  
    The output video will be saved in the specified folder, showing detections, the counting line, and the running count.
@@ -102,7 +103,7 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ## 📚 Citation
 
-If you use this tool or dataset in your research, please cite:
+If you use this tool in your research, please cite:
 
 > Guzmán Torres, J.A., Universidad Michoacana de San Nicolás de Hidalgo, Faculty of Civil Engineering, AULA-CIMNE, Morelia, Michoacán, México.
 
@@ -114,59 +115,6 @@ This project was developed as part of research on urban mobility and smart city 
 
 ---
 
-![](Home.png)
-
-<img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
-<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1.20+-brightgreen.svg">
-<img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.8+-orange.svg">
-<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
-
-
-
-## 💻 Technical Specifications  
-
-### Prediction Model  
-- **Framework**: TensorFlow 2.8+ / Keras  
-- **Model File**: `carbonation_classifier_model.h5` (CNN architecture trained on labeled concrete images)  
-- **Input Preprocessing**:  
-  1. Images resized to 224×224 px  
-  2. Pixel centering using `[123.68, 116.779, 103.939]` mean subtraction  
-- **Inference Logic**:  
-  - Probability ≤ 0.22 → “No carbonation detected”  
-  - Probability > 0.22 → “Carbonation damage detected”
-
-### User Interface  
-- **Framework**: Streamlit 1.20+  
-- **Animations**: Lottie via `streamlit_lottie`  
-- **Styling**: Custom sidebar backgrounds and logos embedded with Markdown/HTML  
-- **Security**: Simple password protection (default code: `concrete2025`) on sidebar  
-
----
-
-## ⚙️ Installation & Setup  
-
-### System Requirements  
-| Component | Minimum     | Recommended  |
-|-----------|-------------|--------------|
-| **Python**| 3.8+        | 3.10+        |
-| **RAM**   | 4 GB        | 8 GB+        |
-| **OS**    | Windows/Linux/macOS | —   |
-
-### Clone & Install  
-```bash
-# 1. Clone the repo
-git clone https://github.com/JoseAlbertoGT/Concrete_Carb_Classifier.git
-cd Concrete_Carb_Classifier
-
-# 2. (Optional) Use Dev Container
-#    Open in VS Code and click “Reopen in Container”
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run the app
-streamlit run Central_app.py
-```
 ## :abacus: Methodology & Algorithms
 
 ### :books: Machine Learning Pipeline
