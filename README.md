@@ -43,7 +43,7 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ---
 
-## �📹 Demo Video
+## 📹 Demo Video
 
 [![Watch the demo video](https://img.youtube.com/vi/a81K_AmEOEI/maxresdefault.jpg)](https://www.youtube.com/watch?v=a81K_AmEOEI)
 
