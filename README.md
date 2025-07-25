@@ -5,7 +5,7 @@
 ![](Images/Home.png)
 
 <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg">
-<img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.8+-orange.svg">
+<img alt="TensorFlow" src="https://img.shields.io/badge/OpenCV-4.1+-orange.svg">
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
 </div>
