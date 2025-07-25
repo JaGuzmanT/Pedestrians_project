@@ -43,7 +43,15 @@ This project implements a **real-time pedestrian detection and counting system**
 
 ---
 
-## 🌟 Key Features
+## � Demo Video
+
+[![Watch the demo video](https://img.youtube.com/vi/a81K_AmEOEI/maxresdefault.jpg)](https://www.youtube.com/watch?v=a81K_AmEOEI)
+
+Click on the image above to watch a demonstration of the pedestrian detection and counting system in action. The video showcases the real-time detection capabilities, the virtual counting line functionality, and the accuracy of our YOLO11-based implementation.
+
+---
+
+## �🌟 Key Features
 
 - **Interactive Line Selection:**  
   Use the included HTML tool to easily define the counting line on any video.
