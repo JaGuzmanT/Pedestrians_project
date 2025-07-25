@@ -51,7 +51,7 @@ Click on the image above to watch a demonstration of the pedestrian detection an
 
 ---
 
-## �🌟 Key Features
+## 🌟 Key Features
 
 - **Interactive Line Selection:**  
   Use the included HTML tool to easily define the counting line on any video.
