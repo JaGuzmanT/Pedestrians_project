@@ -96,7 +96,7 @@ Click on the image above to watch a demonstration of the pedestrian detection an
 
 ---
 
-## � Clone & Install
+## 💻 Clone & Install
 
 1. **Clone the Repository:**
    ```bash
@@ -133,7 +133,7 @@ Click on the image above to watch a demonstration of the pedestrian detection an
 
 ---
 
-## �🚀 How to Use
+## 🚀 How to Use
 
 1. **Configure the Script:**  
    - Set the video path and model path in the script.
