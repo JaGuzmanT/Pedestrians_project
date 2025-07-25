@@ -155,7 +155,7 @@ Click on the image above to watch a demonstration of the pedestrian detection an
 
 If you use this tool in your research, please cite:
 
-> Guzmán Torres, J.A., Universidad Michoacana de San Nicolás de Hidalgo, Faculty of Civil Engineering, AULA-CIMNE, Morelia, Michoacán, México.
+> Guzmán-Torres, J. A., Domínguez-Mota, F. J., Tinoco-Guerrero, G., García-Chiquito, M. C., & Tinoco-Ruíz, J. G. (2024). Efficacy evaluation of you only learn one representation (YOLOR) algorithm in detecting, tracking, and counting vehicular traffic in real-world scenarios, the case of morelia méxico: An artificial intelligence approach. AI, 5(3), 1594-1613.
 
 ---
 
@@ -246,6 +246,10 @@ This project was developed as part of research on urban mobility and smart city 
 1. **Guzmán-Torres, J. A.**, Domínguez-Mota, F. J., Tinoco-Guerrero, G., Tinoco-Ruíz, J. G., & Alonso-Guzmán, E. M. (2024). *Extreme fine-tuning and explainable AI model for non-destructive prediction of concrete compressive strength, the case of ConcreteXAI dataset.* **Advances in Engineering Software**, 192, 103630. [DOI: 10.1016/j.advengsoft.2024.103630](https://doi.org/10.1016/j.advengsoft.2024.103630)
 
 2. Guzmán-Torres, J. A., Domínguez-Mota, F. J., Alonso-Guzmán, E. M., Tinoco-Guerrero, G., & Martínez-Molina, W. (2024). ConcreteXAI: A multivariate dataset for concrete strength prediction via deep-learning-based methods. Data in Brief, 53, 110218. [DOI: 10.1016/j.dib.2024.110218](https://doi.org/10.1016/j.dib.2024.110218)
+
+3. Guzmán-Torres, J. A., Domínguez-Mota, F. J., Tinoco-Guerrero, G., García-Chiquito, M. C., & Tinoco-Ruíz, J. G. (2024). Efficacy evaluation of you only learn one representation (YOLOR) algorithm in detecting, tracking, and counting vehicular traffic in real-world scenarios, the case of morelia méxico: An artificial intelligence approach. AI, 5(3), 1594-1613. [DOI: 10.3390/ai5030077](https://doi.org/10.3390/ai5030077)
+
+4. Guzmán-Torres, J. A., Domínguez-Mota, F. J., Guzmán, E. A., Tinoco-Guerrero, G., & Tinoco-Ruíz, J. G. (2025). A digital twin approach based method in civil engineering for classification of salt damage in building evaluation. Mathematics and Computers in Simulation, 233, 433-447. [DOI: 10.1016/j.matcom.2025.02.003](https://doi.org/10.1016/j.matcom.2025.02.003)
 
 ---
 
